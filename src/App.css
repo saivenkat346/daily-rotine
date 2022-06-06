@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+*{
+    padding:0;
+    margin: 0;
+    background-color: rgb(224, 78, 45);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2{
+    text-align: center;
+    position: relative;
+    top:50px;
+    color: burlywood;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.adding-todo{
+    display: flex;
+   justify-content: center;
+   margin-top: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_box{
+    background-color: transparent; 
+    border:aqua solid ;
+    outline: none;
+    transition: border 0.5s ;
+    width: 50%;
+    color: burlywood;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input_box[type=text]:focus{
+  border:  whitesmoke solid ;
+  border-radius: 5px;
+   
 }
 
-.App-link {
-  color: #61dafb;
+.button{
+    outline: none;
+    border: aqua solid 3px;
+    margin-left: 2%;
+    padding: 1%;
+    color: burlywood;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover{
+    border: aquamarine solid 3px ;
+    border-radius: 10px;
 }
+
+.button:active{
+    background-color: grey;
+}
+
+
+

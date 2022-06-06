@@ -1,0 +1,26 @@
+.todo-item{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+}
+
+.todo-item > button{
+  outline:none;
+  border: aqua solid 3px;
+  padding: 1%;
+  margin-left: 2%;
+}
+
+li{
+    color:rosybrown;
+    text-decoration: line-through;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.incompleted{
+    text-decoration: none;
+}
+
